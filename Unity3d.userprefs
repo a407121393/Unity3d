@@ -1,8 +1,10 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\ParticlesManager.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\splatterCore.js">
     <Files>
-      <File FileName="Assets\_Scripts\ParticlesManager.js" Line="8" Column="10" />
+      <File FileName="Assets\_Scripts\ParticlesManager.js" Line="1" Column="1" />
+      <File FileName="Assets\splatterCast.js" Line="1" Column="1" />
+      <File FileName="Assets\splatterCore.js" Line="28" Column="38" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
