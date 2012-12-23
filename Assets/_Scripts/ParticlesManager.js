@@ -18,7 +18,8 @@ function OnCollisionEnter(collision : Collision) {
 	particleClone.transform.position = collision.contacts[0].point;
 	particleClone.transform.rotation = Quaternion.FromToRotation(Vector3.up, collision.contacts[0].normal);	
 	particleClone.Emit();
-	destroyParticles(particleClone,ParticlesTimeLive);
+	//destroyParticles(particleClone,ParticlesTimeLive);
+	Destroy(particleClone,ParticlesTimeLive);
 }
 
 function destroyParticles(particleClone : ParticleEmitter, time:float) {
