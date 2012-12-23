@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\_Scripts\Wall.js">
+    <Files>
+      <File FileName="..\FPS_Tutorial_Completed\Assets\WeaponScripts\MachineGun.js" Line="81" Column="21" />
+      <File FileName="Assets\_Scripts\Weapons\Gun.js" Line="35" Column="1" />
+      <File FileName="Assets\_Scripts\AI\AI_1.js" Line="30" Column="50" />
+      <File FileName="Assets\_Scripts\AIAnimation.js" Line="10" Column="19" />
+      <File FileName="Assets\_Scripts\Weapons\Projectile.js" Line="2" Column="1" />
+      <File FileName="Assets\_Scripts\Wall.js" Line="2" Column="32" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
