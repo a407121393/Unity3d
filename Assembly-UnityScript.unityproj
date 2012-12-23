@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{18B3EC90-BEA1-0851-F6CE-F5D10D2B0483}</ProjectGuid>
+	<ProjectGuid>{643EE0C2-A641-14D1-4035-DC8BBFB7EF82}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -48,7 +48,6 @@
      <Compile Include="Assets\_Scripts\AI\AI_1.js" />
      <Compile Include="Assets\_Scripts\AIAnimation.js" />
      <Compile Include="Assets\_Scripts\ParticlesManager.js" />
-     <Compile Include="Assets\_Scripts\Wall.js" />
      <Compile Include="Assets\_Scripts\Weapons\DontGoThroughThings.js" />
      <Compile Include="Assets\_Scripts\Weapons\Gun.js" />
      <Compile Include="Assets\_Scripts\Weapons\Projectile.js" />
@@ -58,9 +57,9 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{3488273E-89CF-00BE-8358-0F06AF05C747}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+      <Project>{C74E3ABF-DD69-071B-887D-860AA31888B9}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
     <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
-      <Project>{2C9DFC20-B2F1-281B-CD09-BC2DBFAEBAC0}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+      <Project>{9BFC5527-4F86-19DF-81A5-174C1B3E0CAC}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
