@@ -52,10 +52,11 @@
      <Compile Include="Assets\_Scripts\Weapons\Gun.js" />
      <Compile Include="Assets\_Scripts\Weapons\Projectile.js" />
      <Compile Include="Assets\_Scripts\camLookAt.js" />
-     <Compile Include="Assets\splatterCast.js" />
-     <Compile Include="Assets\splatterCore.js" />
+     <Compile Include="Assets\_Scripts\collision_receiver.js" />
+     <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\SpartanKing\animations.txt" />
+     <None Include="Assets\Standard Assets\Water\Sources\FX-Water Simple.shader" />
  <Reference Include="Assembly-UnityScript-firstpass">
  <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
  </Reference>

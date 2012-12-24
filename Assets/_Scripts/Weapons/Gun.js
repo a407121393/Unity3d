@@ -20,10 +20,11 @@ function Update(){
 function fire(){ 
 
 	// create a new projectile, use the same position and rotation as the Launcher.
-	var instantiatedProjectile : Rigidbody = Instantiate (projectile, transform.position, transform.rotation);
+	var instantiatedProjectile : Rigidbody = Instantiate (projectile, Camera.main.transform.position, Camera.main.transform.rotation);
 	
 	// Give it an initial forward velocity. The direction is along the z-axis of the missile launcher's transform.
 	instantiatedProjectile.velocity = Camera.main.transform.TransformDirection(Vector3 (0, 0, initialSpeed));
+	//Camera.main.ScreenToWorldPoint( Vector3(Screen.width/2, Screen.height/2, Camera.main.nearClipPlane) )
 	
 	// Ignore collisions between the missile and the character controller
 	Physics.IgnoreCollision(instantiatedProjectile.collider, transform.root.collider);
