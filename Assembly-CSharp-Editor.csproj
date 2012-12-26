@@ -44,7 +44,9 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FPS Constructor V1\ScriptsDB\Editor\TransformCopier.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\Editor\AI4EnemiesMenu.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\Editor\AIAnimationsEditor.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\Editor\AIEnemyWaypointEditorEditor.cs" />
      <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\SpartanKing\animations.txt" />

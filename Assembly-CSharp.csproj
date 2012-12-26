@@ -44,7 +44,19 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FPS Constructor V1\ScriptsDB\WeaponScripts\GunLook.cs" />
+     <Compile Include="Assets\AI4Enemies\DemoScene\Scripts\CollisionEffects.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\AIAnimations.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\AIController.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\AIEnemyWaypointEditor.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\CollisionDamageController.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\Damage.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\EventListenerExample.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\HealthControllerExample.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\ShootingExample.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\SoundObject.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\SpawnPointBehaviour.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\TargetPointBehaviour.cs" />
+     <Compile Include="Assets\AI4Enemies\Scripts\WaypointBehaviour.cs" />
      <None Include="Assets\Standard Assets\Blob-Shadow\ShadowProjection.shader" />
      <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
      <None Include="Assets\SpartanKing\animations.txt" />
